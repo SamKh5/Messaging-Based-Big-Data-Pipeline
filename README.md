@@ -31,27 +31,26 @@ A real-world use case—**COVID-19 analytics**—was used to validate the system
 5. **Airflow** DAGs manage partition refresh, job deployment, and monitoring.  
 
 <p align="center">
-  <img src="https://github.com/your-username/your-repo-name/assets/architecture-diagram" alt="Pipeline Architecture" width="600"/>
+  <img src="https://github.com/your-username/your-repo-name/assets/architecture.jpeg" alt="Pipeline Architecture" width="600"/>
 </p>
 
 ---
 
 ## 📂 Project Structure
 ```
-Big_data/
+RootDirectory/
 │
-├── docker_exp/
-│   ├── docker-compose.yml           # Multi-container setup (Kafka, Hive, NiFi, Airflow, Spark)
-│   ├── hadoop.env / hadoop-hive.env # Environment configs
-│   ├── airflow_init.sh              # Airflow initialization script
-│   ├── hive_connection.py           # Hive connector logic
-│   ├── hive_script.py               # Hive DDL + query automation
-│   ├── test.py                      # Utility script for testing data flow
-│   ├── Nifi1..4.png                 # NiFi workflow snapshots
-│   ├── processed_data.hql           # Hive queries on processed data
-│   ├── corana_data.hql              # Example input HQL file
-│   ├── docker_containers.png        # Live container view (Airflow, Kafka, NiFi, Hive)
-│   └── BIG_DATA_REPORT.pdf          # Full academic project report
+├── docker-compose.yml           # Multi-container setup (Kafka, Hive, NiFi, Airflow, Spark)
+├── hadoop.env / hadoop-hive.env # Environment configs
+├── airflow_init.sh              # Airflow initialization script
+├── hive_connection.py           # Hive connector logic
+├── hive_script.py               # Hive DDL + query automation
+├── test.py                      # Utility script for testing data flow
+├── Nifi1..4.png                 # NiFi workflow snapshots
+├── processed_data.hql           # Hive queries on processed data
+├── corana_data.hql              # Example input HQL file
+├── docker_containers.png        # Live container view (Airflow, Kafka, NiFi, Hive)
+└── BIG_DATA_REPORT.pdf          # Full academic project report
 ```
 
 ---
