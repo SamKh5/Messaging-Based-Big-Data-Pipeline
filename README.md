@@ -31,7 +31,7 @@ A real-world use case—**COVID-19 analytics**—was used to validate the system
 5. **Airflow** DAGs manage partition refresh, job deployment, and monitoring.  
 
 <p align="center">
-  <img src="https://github.com/your-username/your-repo-name/assets/architecture" alt="Pipeline Architecture" width="600"/>
+  <img src="https://raw.githubusercontent.com/SamKh5/Messaging-Based-Big-Data-Pipeline/main/assets/architecture.jpeg" alt="Pipeline Architecture" width="600"/>
 </p>
 
 ---
